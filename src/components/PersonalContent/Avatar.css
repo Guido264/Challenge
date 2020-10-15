@@ -1,0 +1,28 @@
+/* .backdrop-avatar {
+    background: linear-gradient(90deg, #a5a5a5, #000);
+} */
+
+.container-avatar{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.rounded-avatar{
+    border-radius: 50%;
+    padding: 1px;
+    border: 8px solid transparent;
+    background: linear-gradient(60deg, #efb6b2 10%, #ce00 100%);
+}
+
+.row-avatar{
+    margin-top: 100px;
+}
